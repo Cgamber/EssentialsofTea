@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Essentails of Tea</title>
+    <style>
+      body {
+        font-family: Cerebri Sans, Helvetica, Arial, sans-serif;
+        
+    }
+
+    .header {
+			background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/072/519/original/Tea_background.jpg?1679195995');
+			background-size: cover;
+			height: 400px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			color: #4e4a4a;
+			
+            
+		}
+		.title {
+			font-size: 48px;
+			font-weight: bold;
+			margin-bottom: 20px;
+			font-family: 'Montserrat', sans-serif;
+		}
+		.subtitle {
+			font-size: 24px;
+			margin-bottom: 40px;
+			font-family: 'Open Sans', sans-serif;
+            text-align: right;
+      }
+
+
+      h1 {
+        font-size: 36px;
+			font-weight: bold;
+			color: #000;
+			text-transform: uppercase;
+            font-family:"papyrus";
+      }
+
+      h2 {
+        color: #385170;
+        padding: 0 0 10px;
+      }
+      p{
+        text-align: right;
+      }
+
+      button {
+        border-radius: 25px;
+        border: 1px solid #385170;
+        background: #385170;
+        color: #fff;
+        font-size: 16px;
+        display: block;
+        margin: 0 auto;
+        line-height: 22px;
+        padding: 16px 24px;
+        text-decoration: none;
+        transition: all 200ms ease;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+      }
+
+      button:hover {
+        cursor: pointer;
+        background: #9fd3c7;
+      }
+
+      .description p {
+        text-align: center;
+        font-size: 18px;
+        line-height: 28px;
+        font-family: PT Mono, monospace;
+      }
+
+      span.limited-spots {
+        font-weight: bold;
+      }
+
+      div.button-container {
+        margin: 60px 0;
+      }
+      .topnav {
+        list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			border-radius: 25px;
+			overflow: hidden;
+			background-color: rgba(255, 255, 255, 0.5);
+            backdrop-filter: blur(10px);
+            
+			
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: transform 0.25s ease;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+
+}
+
+.topnav a.active {
+  color: white;
+  
+}
+
+    </style>
+  </head>
+  <title>Tea Button</title>
+	<script>
+		function getTea() {
+			var tea = prompt("What is your favorite tea?");
+			if (tea != null) {
+				var temperature = prompt("Do you prefer your tea hot or cold?");
+				if (temperature != null) {
+					alert("You chose " + tea + " " + temperature + ".");
+				}
+			}
+		}
+	</script>
+  <body style="background-color:#e0f3ef;">
+    <header>
+        <header class="header">
+            <div class="tea-cup"></div>
+      <h1>
+        Essentials <space></space>of Tea
+        
+      </h1>
+      <br>
+      <ul>
+        <div class="topnav">
+            <a class="active" href="Home.html">Home</a>
+            <a href="History.html">History</a>
+            <a href="HealthBenefits.html">Health Benefits</a>
+            <a href="About.html">About</a>
+          </div>
+      </ul>
+      <br>
+      <br>
+      
+    </header>
+    <section class="description">
+        <br>
+      <p>
+        Tea has been consumed for centuries and is known for its health benefits. Here is an overview of some of the health benefits of different types of teas, along with some sources for further reading:
+
+Green tea - Green tea is known for its high levels of antioxidants, which can help protect cells from damage and reduce the risk of chronic diseases such as cancer and heart disease (1). Green tea has also been shown to improve brain function, boost metabolism, and promote weight loss (2).
+
+Black tea - Black tea has been shown to improve heart health by reducing the risk of heart disease and stroke (3). Black tea is also rich in antioxidants and has been linked to lower levels of stress hormones and improved mental alertness (4).
+
+White tea - White tea has the highest levels of antioxidants of all the teas and has been shown to have anti-aging effects on the skin (5). White tea may also help reduce the risk of heart disease and lower blood pressure (6).
+
+Herbal tea - Herbal teas, such as chamomile and peppermint, have a range of health benefits. Chamomile tea has been shown to reduce inflammation and improve sleep quality (7), while peppermint tea may help relieve digestive issues such as bloating and constipation (8).
+
+Oolong tea - Oolong tea is a traditional Chinese tea that is believed to have weight loss and metabolism-boosting properties (9). Oolong tea may also help reduce the risk of heart disease and improve bone health (10).
+
+Overall, tea is a healthy beverage choice that offers a range of health benefits. However, it is important to keep in mind that individual results may vary, and tea should not be relied upon as a sole treatment for any medical condition.
+      </p>
+      
+    </section>
+    <footer>
+<p>
+Sources:
+
+"Green Tea." National Center for Complementary and Integrative Health, 15 Sep. 2021, www.nccih.nih.gov/health/green-tea.
+"10 Proven Benefits of Green Tea." Healthline, 17 Aug. 2020, www.healthline.com/nutrition/top-10-evidence-based-health-benefits-of-green-tea.
+"Black Tea." National Center for Complementary and Integrative Health, 15 Sep. 2021, www.nccih.nih.gov/health/black-tea.
+"Benefits of Black Tea: From Heart Health to Stress Relief." Harvard Health Publishing, 29 Oct. 2020, www.health.harvard.edu/staying-healthy/benefits-of-black-tea-from-heart-health-to-stress-relief.
+"White Tea." Tea Association of the USA, Inc., www.teausa.com/tea-education/tea-types/white-tea.
+"What Are the Health Benefits of White Tea?" Medical News Today, 17 Nov. 2020, www.medicalnewstoday.com/articles/318385.
+"Chamomile: A Herbal Medicine of the Past with Bright Future." Molecular Medicine Reports, 2010, www.ncbi.nlm.nih.gov/pmc/articles/PMC2995283/.
+"Peppermint Tea: Health Benefits and Side Effects." Medical News Today, 3 Aug. 2021, www.medicalnewstoday.com/articles/325828.
+"Oolong Tea 101: Benefits, Types, and How to Drink It." Healthline, 13 Feb. 2019, www.healthline.com/nutrition/oolong-tea-benefits.
+"What Are the Health Benefits of Oolong Tea?" Medical News Today, 22 Dec. 2020, www.medicalnewstoday.com/articles/322295.
+</p>
+         </div>
+    </footer>
+  </body>
+</html>
