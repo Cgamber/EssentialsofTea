@@ -1,9 +1,16 @@
 ![image](https://user-images.githubusercontent.com/109772281/226200331-8e2c2960-9d11-4e96-8516-e15c9227d5c2.png)
 First- Developed menu option with Header that fades in
 
+
+
 Interactive poll for user to pick which tea they like the best. 
+
+
 ![image](https://user-images.githubusercontent.com/109772281/226200576-0dfd5816-7ea0-42ab-b4d4-5fdf8028c134.png)
- After the user votes, the total votes show and the user can change there vote at any time
+
+
+After the user votes, the total votes show and the user can change there vote at any time
+
  ![image](https://user-images.githubusercontent.com/109772281/226203422-daf9587b-ff8e-42c1-bdb6-89a9238fb536.png)
 
 Snipit from History page:
